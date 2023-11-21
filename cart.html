@@ -156,145 +156,51 @@
 
     <!--Body-->
     <main id="main-site">
-      <!--Product-->
-      <section id="product" class="py-3">
-        <div class="container">
+      <!--Shopping Cart-->
+      <section id="cart" class="py-3">
+        <div class="container-fluid w-75">
+          <h5 class="font-rubik font-size-20">Shopping cart</h5>
+
+          <!--cart items-->
           <div class="row">
-            <div class="col-sm-6">
-              <img
-                src="./assets/products/iphone-12-tim-1-600x600.jpg"
-                alt="product"
-                class="img-fluid"
-              />
-              <form action="" class="form-row pt-4 font-size-16 d-flex">
-                <div class="col">
-                  <button type="submit" class="btn btn-danger form-control">
-                    Proccess to buy
-                  </button>
+            <div class="col-sm-9">
+              <!--item-->
+              <div class="row border-top py-3 mt-3">
+                <div class="col-sm-2">
+                  <img
+                    src="./assets//products/iphone-12-tim-1-600x600.jpg"
+                    alt="cart1"
+                    class="img-fluid"
+                    style="height: 120px;"
+                  />
                 </div>
-                <div class="col">
-                  <button type="submit" class="btn btn-warning form-control">
-                    Add to Cart
-                  </button>
-                </div>
-              </form>
-            </div>
-            <div class="col-sm-6 py-5">
-              <h5>Iphone 12 Promax 1TB</h5>
-              <small>By Apple</small>
-              <div class="d-flex">
-                <div class="rating text-warning font-size-12">
-                  <span><i class="fas fa-star"></i></span>
-                  <span><i class="fas fa-star"></i></span>
-                  <span><i class="fas fa-star"></i></span>
-                  <span><i class="fas fa-star"></i></span>
-                  <span><i class="far fa-star"></i></span>
-                </div>
-                <a href="#" class="font-size-12">
-                  &nbsp; 201 rating| 1000+ answered questions</a
-                >
-              </div>
-              <hr class="m-0" />
+                <div class="col-sm-8">
+                  <h5 class="font-rubik font-size-20">Iphone 12 Purple</h5>
+                  <small>by Apple</small>
 
-              <!--product price-->
-
-              <table class="my-3">
-                <tr class="font-rubik font-size-14">
-                  <td>M.R.P:</td>
-                  <td><strike>$163.00</strike></td>
-                </tr>
-                <tr class="font-rubik font-size-20">
-                  <td>Deal price:</td>
-                  <td class="font-size-20 text-danger">
-                    $ <span>152.00</span> <small>inclusive of all taxes</small>
-                  </td>
-                </tr>
-                <tr class="font-rubik font-size-14">
-                  <td>You save:</td>
-                  <td class="text-danger">$ 10.00</td>
-                </tr>
-              </table>
-
-              <!--Policy-->
-              <div class="policy">
-                <div class="d-flex justify-content-around">
-                  <div class="return text-center mr-5">
-                    <div class="font-size-20 my-2 color-second">
-                      <span
-                        class="fas fa-retweet border p-3 rounded-pill"
-                      ></span>
+                  <!--rating-->
+                  <div class="d-flex">
+                    <div class="rating text-warning font-size-12">
+                      <span><i class="fas fa-star"></i></span>
+                      <span><i class="fas fa-star"></i></span>
+                      <span><i class="fas fa-star"></i></span>
+                      <span><i class="fas fa-star"></i></span>
+                      <span><i class="far fa-star"></i></span>
                     </div>
-                    <a href="" class="font-rubik font-size-12"
-                      >10 Days <br />Replacement</a
+                    <a href="#" class="px-2 font-rubik font-size-14"
+                      >20.542 ratings</a
                     >
                   </div>
-                  <div class="return text-center mr-5">
-                    <div class="font-size-20 my-2 color-second">
-                      <span class="fas fa-truck border p-3 rounded-pill"></span>
-                    </div>
-                    <a href="" class="font-rubik font-size-12"
-                      >Daily Tuition<br />Delive</a
-                    >
-                  </div>
-                  <div class="return text-center mr-5">
-                    <div class="font-size-20 my-2 color-second">
-                      <span
-                        class="fas fa-check-double border p-3 rounded-pill"
-                      ></span>
-                    </div>
-                    <a href="" class="font-rubik font-size-12"
-                      >1 year <br />Warranty</a
-                    >
-                  </div>
-                </div>
-              </div>
-              <hr />
 
-              <!--Order Detail-->
-              <div
-                id="order-details"
-                class="font-rale d-flex flex-column text-dark"
-              >
-                <small>Delivery by: Mar 26 - Apr 1</small>
-                <small
-                  >Sold by: <a href="">Shopee inCo</a> (4.9/5 | 1895
-                  ratings)</small
-                >
-                <small
-                  ><i class="fas fa-map-marker-alt color-primary"></i
-                  >&nbsp;&nbsp; Delivery to Customer - 19425</small
-                >
-              </div>
-
-              <div class="row">
-                <div class="col-6">
-                  <!--color-->
-                  <div class="color my-3">
-                    <div class="d-flex justify-content-between">
-                      <h6 class="font-rubik">Color:</h6>
-                      <div class="py-2 color-yellow-bg rounded-circle">
-                        <button class="btn font-size-20 m-2"></button>
-                      </div>
-                      <div class="py-2 color-primary-bg rounded-circle">
-                        <button class="btn font-size-20 m-2"></button>
-                      </div>
-                      <div class="py-2 color-second-bg rounded-circle">
-                        <button class="btn font-size-20 m-2"></button>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-6">
-                  <!--QTY-->
-                  <div class="qty d-flex">
-                    <h6 class="font-rubik">QTY:</h6>
-                    <div class="px-4 d-flex font-rale">
+                  <!--qty-->
+                  <div class="qty d-flex pt-2">
+                    <div class="d-flex font-rubik w-25">
                       <button class="qty-up border bg-light">
                         <i class="fas fa-angle-up"></i>
                       </button>
                       <input
                         type="text"
-                        class="qty_input border px-2 bg-light w-50"
+                        class="qty_input border px-2 bg-light w-100"
                         disabled
                         value="1"
                         placeholder="1"
@@ -303,52 +209,114 @@
                         <i class="fas fa-angle-down"></i>
                       </button>
                     </div>
+                    <button
+                      type="submit"
+                      class="btn font-baloo text-danger px-3 border-right"
+                    >
+                      Delete
+                    </button>
+                    <button type="submit" class="btn font-baloo text-danger">
+                      Save for Later
+                    </button>
+                  </div>
+                </div>
+
+                <div class="col-sm-2 text-right">
+                  <div class="font-size-20 text-danger font-baloo">
+                    $ <span class="product_price">150</span>
                   </div>
                 </div>
               </div>
 
-              <!--size product-->
-              <div class="size my-3">
-                <h6 class="font-rubik">Size:</h6>
-                <div class="d-flex justify-content-between w-75">
-                  <div class="font-rubik border py-2">
-                    <button class="btn p-0 font-size-14">4GB RAM</button>
+              <!--item-->
+              <div class="row border-top py-3 mt-3">
+                <div class="col-sm-2">
+                  <img
+                    src="./assets//products/poco-m5-thumb-1-600x600.jpg"
+                    alt="cart1"
+                    class="img-fluid"
+                    style="height: 120px;"
+                  />
+                </div>
+                <div class="col-sm-8">
+                  <h5 class="font-rubik font-size-20">Poco M5</h5>
+                  <small>by Xiaomi</small>
+
+                  <!--rating-->
+                  <div class="d-flex">
+                    <div class="rating text-warning font-size-12">
+                      <span><i class="fas fa-star"></i></span>
+                      <span><i class="fas fa-star"></i></span>
+                      <span><i class="fas fa-star"></i></span>
+                      <span><i class="fas fa-star"></i></span>
+                      <span><i class="far fa-star"></i></span>
+                    </div>
+                    <a href="#" class="px-2 font-rubik font-size-14"
+                      >20.542 ratings</a
+                    >
                   </div>
-                  <div class="font-rubik border py-2">
-                    <button class="btn p-0 font-size-14">6GB RAM</button>
+
+                  <!--qty-->
+                  <div class="qty d-flex pt-2">
+                    <div class="d-flex font-rubik w-25">
+                      <button class="qty-up border bg-light">
+                        <i class="fas fa-angle-up"></i>
+                      </button>
+                      <input
+                        type="text"
+                        class="qty_input border px-2 bg-light w-100"
+                        disabled
+                        value="1"
+                        placeholder="1"
+                      />
+                      <button class="qty-down border bg-light">
+                        <i class="fas fa-angle-down"></i>
+                      </button>
+                    </div>
+                    <button
+                      type="submit"
+                      class="btn font-baloo text-danger px-3 border-right"
+                    >
+                      Delete
+                    </button>
+                    <button type="submit" class="btn font-baloo text-danger">
+                      Save for Later
+                    </button>
                   </div>
-                  <div class="font-rubik border py-2">
-                    <button class="btn p-0 font-size-14">8GB RAM</button>
+                </div>
+
+                <div class="col-sm-2 text-right">
+                  <div class="font-size-20 text-danger font-baloo">
+                    $ <span class="product_price">152</span>
                   </div>
                 </div>
               </div>
             </div>
-
-            <div class="col-12">
-              <h6 class="font-rubik">Product Description</h6>
-              <hr />
-              <p class="font-rale font-size-14">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio
-                magni tempora sequi cupiditate. Itaque nam illum amet possimus
-                deserunt tempore dolorum, provident, dolorem saepe id iusto in
-                temporibus sint illo! Lorem ipsum dolor sit amet consectetur
-                adipisicing elit. Odit sequi officiis assumenda voluptatum nemo
-                porro, et suscipit commodi eius, iste neque! Eius ea sapiente
-                in, ratione similique quos fugiat commodi.
-              </p>
+            <!--subtotal-->
+            <div class="col-sm-3">
+              <div class="sub-total border text-center mt-2">
+                <h6 class="font-size-12 font-rale text-success py-3">
+                  <i class="fas fa-check"> &nbsp;</i>Your orrder is eligible for
+                  Free Delivery
+                </h6>
+                <div class="border-top py-4">
+                  <h5 class="font-rubik font-size-20">Subtotal (2 items): &nbsp; <SPAn class="text-danger" id="deal-price">$152.00</SPAn></h5>
+                  <button type="submit" class="btn btn-warning"> Proceed to Buy</button>
+                </div>
+              </div>
             </div>
           </div>
         </div>
       </section>
 
-      <!--Top Sale-->
-      <section id="top-sale">
+      <!--New phone-->
+      <section id="new-phones">
         <div class="container py-5">
-          <h4>Top Sale</h4>
+          <h4 class="font-rubik font-size-20">New phones</h4>
           <hr />
           <!--owl carousel-->
           <div class="owl-carousel owl-theme">
-            <div class="item py-2 m-4">
+            <div class="item py-2 m-4 bg-light">
               <div class="product font-rale">
                 <a href="#"
                   ><img
@@ -374,7 +342,7 @@
                 </div>
               </div>
             </div>
-            <div class="item py-2 m-4">
+            <div class="item py-2 m-4 bg-light">
               <div class="product font-rale">
                 <a href="#"
                   ><img
@@ -400,7 +368,7 @@
                 </div>
               </div>
             </div>
-            <div class="item py-2 m-4">
+            <div class="item py-2 m-4 bg-light">
               <div class="product font-rale">
                 <a href="#"
                   ><img
@@ -426,7 +394,7 @@
                 </div>
               </div>
             </div>
-            <div class="item py-2 m-4">
+            <div class="item py-2 m-4 bg-light">
               <div class="product font-rale">
                 <a href="#"
                   ><img
@@ -452,7 +420,7 @@
                 </div>
               </div>
             </div>
-            <div class="item py-2 m-4">
+            <div class="item py-2 m-4 bg-light">
               <div class="product font-rale">
                 <a href="#"
                   ><img
@@ -479,8 +447,8 @@
               </div>
             </div>
           </div>
-          <!--owl carousel-->
         </div>
+        <!--owl carousel-->
       </section>
 
       <!--Footer-->
