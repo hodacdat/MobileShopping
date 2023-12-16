@@ -63,4 +63,28 @@ class Cart
 
         return sprintf('%.2f', $sum);
     }
+
+    // delete cart item
+    public function deleteCartItem($item_id = null, $table = 'cart')
+    {
+        if ($item_id != null) {
+            $result = $this->db->con->query("Delete from {$table} where item_id = {$item_id} ");
+            if ($result) {
+                header("Location: " . $_SERVER['PHP_SELF']);
+            }
+        }
+
+        return $result;
+    }
+
+    // get item_id of cart list
+    public function getCartId($cartArray = null, $key = 'item_id')
+    {
+        if ($cartArray != NULL) {
+            $cart_id = array_map(function ($value) use ($key) {
+                return $value[$key];
+            }, $cartArray);
+            return $cart_id;
+        }
+    }
 }

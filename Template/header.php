@@ -54,7 +54,7 @@ require 'functions.php';
 		<!--Origin navigation bar-->
 		<nav class="navbar navbar-expand-lg color-second-bg">
 			<div class="container-fluid">
-				<a class="navbar-brand" href="#">Mobile Shopping</a>
+				<a class="navbar-brand" href="index.php">Mobile Shopping</a>
 				<button class="navbar-toggler" type="button"
 					data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
 					aria-controls="navbarSupportedContent" aria-expanded="false"
